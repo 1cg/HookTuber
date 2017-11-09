@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.youtube.com/watch*"
+        "https://www.youtube.com/*"
       ],
       "run_at": "document_start",
       "css": ["player.css"],
